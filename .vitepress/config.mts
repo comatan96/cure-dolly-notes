@@ -91,5 +91,6 @@ export default defineConfig({
       md.use(markdownItRuby)
       md.use(furiganaMarkdownIt({}))
     }
-  }
+  },
+  base: '/repo/'
 })
