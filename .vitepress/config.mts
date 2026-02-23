@@ -92,5 +92,5 @@ export default defineConfig({
       md.use(furiganaMarkdownIt({}))
     }
   },
-  base: '/repo/'
+  base: process.env.VITE_BASE_URL || '/',
 })
