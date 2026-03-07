@@ -1,43 +1,43 @@
 {
-  "hash": "676e58f4",
+  "hash": "6a2dae77",
   "configHash": "3db9dfa6",
-  "lockfileHash": "29050396",
-  "browserHash": "56e58665",
+  "lockfileHash": "8739b33f",
+  "browserHash": "4d547f94",
   "optimized": {
     "vue": {
       "src": "../../../node_modules/vue/dist/vue.runtime.esm-bundler.js",
       "file": "vue.js",
-      "fileHash": "e1adab50",
+      "fileHash": "153edbd4",
       "needsInterop": false
     },
     "vitepress > @vue/devtools-api": {
       "src": "../../../node_modules/@vue/devtools-api/dist/index.js",
       "file": "vitepress___@vue_devtools-api.js",
-      "fileHash": "3e9786d8",
+      "fileHash": "37c778aa",
       "needsInterop": false
     },
     "vitepress > @vueuse/core": {
       "src": "../../../node_modules/@vueuse/core/dist/index.js",
       "file": "vitepress___@vueuse_core.js",
-      "fileHash": "584a5d66",
+      "fileHash": "49486af7",
       "needsInterop": false
     },
     "vitepress > @vueuse/integrations/useFocusTrap": {
       "src": "../../../node_modules/@vueuse/integrations/dist/useFocusTrap.js",
       "file": "vitepress___@vueuse_integrations_useFocusTrap.js",
-      "fileHash": "584949c9",
+      "fileHash": "062da433",
       "needsInterop": false
     },
     "vitepress > mark.js/src/vanilla.js": {
       "src": "../../../node_modules/mark.js/src/vanilla.js",
       "file": "vitepress___mark__js_src_vanilla__js.js",
-      "fileHash": "f1c8477d",
+      "fileHash": "aa880c45",
       "needsInterop": false
     },
     "vitepress > minisearch": {
       "src": "../../../node_modules/minisearch/dist/es/index.js",
       "file": "vitepress___minisearch.js",
-      "fileHash": "aec82e6f",
+      "fileHash": "3342822e",
       "needsInterop": false
     }
   },
