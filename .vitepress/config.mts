@@ -88,8 +88,14 @@ export default defineConfig({
 
   markdown: {
     config(md) {
-      md.use(markdownItRuby)
       md.use(furiganaMarkdownIt({}))
+      md.use(markdownItRuby)
+      md.renderer.rules.ruby_open  = () => '<span style="direction:ltr;unicode-bidi:isolate;display:inline-block"><ruby>'
+      md.renderer.rules.ruby_close = () => '</ruby></span>'
+      md.renderer.rules.rt_open    = () => '<rt>'
+      md.renderer.rules.rt_close   = () => '</rt>'
+      md.renderer.rules.rp_open    = () => '<rp>'
+      md.renderer.rules.rp_close   = () => '</rp>'
     }
   },
   base: process.env.VITE_BASE_URL || '/',
